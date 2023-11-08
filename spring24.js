@@ -9,6 +9,7 @@
 // @match        https://reg-prod.ec.njit.edu/StudentRegistrationSsb/ssb/classRegistration/classRegistration
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=njit.edu
 // @grant        none
+// @run-at       document-start
 // ==/UserScript==
 
 const url = new URL(window.location.href);
